@@ -1,0 +1,5 @@
+Print out and mount some kind of calibration pattern. Two of the OpenCV-provided patterns can be found here: https://raw.githubusercontent.com/opencv/opencv/master/doc/pattern.pngLinks to an external site., https://raw.githubusercontent.com/opencv/opencv/master/doc/acircles_pattern.pngLinks to an external site.
+Take at least 10 photos (or use your webcam feed and get at least 10 valid stills) of your pattern board in various angles (make sure the pattern can be detected in each one of the 10 images. You can check that with OpenCv’s drawChessboardCorners function or something similar.
+Calibrate your camera and save the parameters to a json or pickle file
+Load in the parameters from the json file
+Use them to undistort another image from the same camera
