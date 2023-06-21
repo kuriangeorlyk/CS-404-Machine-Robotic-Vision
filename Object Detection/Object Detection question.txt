@@ -1,0 +1,7 @@
+A. Use 3 different methods of IDENTIFYING the features in the image
+B. Try each of your 3 identifying methods with 2 different methods of MATCHING features between images (6 total object detection methods)
+C. You may use the same or different types of descriptors 
+D. Find some object
+E. Take 3 pictures of the object in different positions, locations, and/or orientations. 
+F. Choose one of your three pictures as the “master”
+G. Match your master picture with the other two pictures on your 6 object detection methods – DRAW the matches!
