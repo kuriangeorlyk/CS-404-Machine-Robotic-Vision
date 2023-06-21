@@ -1,0 +1,21 @@
+Motion Detector Assignment
+1. The motion detector should be based on some sort of video stream (not still images). I would prefer you use your webcam, but a pre-recorded video is also fine. If you want to do both, who am I to stop you?
+
+ 
+
+2. The program should be able to detect motion in the scene, and visualize where the motion is somehow. Don’t just use the contours for this! The motion visualization should be something like a box or circle.
+
+ 
+
+3. If you aren’t using a background subtractor in your program, use some kind of temporal average filter (like accumulateWeighted(), np.mean() Etc).
+
+ 
+
+4. Make sure you are using at least one of the foreground detection methods mentioned in class
+
+Also use some sort of preprocessing on your image before feeding them to your motion detector
+
+
+Ideas: Person of Interest Intro Style for motion area:
+https://www.youtube.com/watch?v=WOnQ8CD3v4gLinks to an external site.
+,Sending an alert when motion is detected, Blurring the motion area, etc.
